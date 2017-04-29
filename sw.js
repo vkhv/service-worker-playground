@@ -1,3 +1,4 @@
+console.log('sw setup');
 this.addEventListener('install', function(event) {
   console.log(event);
   event.waitUntil(
