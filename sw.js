@@ -11,5 +11,5 @@ this.addEventListener('install', function(event) {
 
 this.addEventListener('fetch', function(event) {
   console.log(event);
-  console.log(event.request)
+  console.log(event.response)
 });
